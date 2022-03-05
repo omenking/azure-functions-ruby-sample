@@ -72,3 +72,11 @@ ruby-3.1.0/bin/bundle exec 'ruby-3.1.0/bin/bundle' install
 ```
 func start --custom
 ```
+
+### Step 9: Test it works
+
+curl localhost:7071/api/hello?name=world
+
+### Step 10:
+
+Deploy by pressing the deploy button (its tiny at the top of the Azure functions tab in the Azure tab)
