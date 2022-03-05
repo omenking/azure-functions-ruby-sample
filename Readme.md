@@ -1,5 +1,7 @@
 ## Instructions
 
+
+
 ### Step 1:
 Open this project in Visual Studio Code (VSCode).
 Ensure you have the Azure Functions extension installed.
@@ -59,6 +61,10 @@ curl -O https://rubies.travis-ci.org/ubuntu/20.04/x86_64/ruby-3.1.0
 untar the ruby archive
 ```
 tar -xvjf ruby-3.1.0.tar.bz2 
+```
+
+```
+ruby-3.1.0/bin/bundle exec 'ruby-3.1.0/bin/bundle' install
 ```
 
 ### Step 8:
