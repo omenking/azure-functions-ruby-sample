@@ -28,3 +28,8 @@ Intall the Azure Functions Core Tools
 
 https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Clinux%2Ccsharp%2Cportal%2Cbash
 
+### Step 5:
+
+```
+func start --custom
+```
