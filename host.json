@@ -17,9 +17,9 @@
   },
   "customHandler": {
     "description": {
-      "defaultExecutablePath": "portableruby/bin.real/bundle",
+      "defaultExecutablePath": "ruby-3.1.0/bin/bundle",
       "workingDirectory": "",
-      "arguments": [ "exec rackup --host 0.0.0.0 -p 4567" ]
+      "arguments": [ "exec ruby handler.rb"]
     },
     "enableForwardingHttpRequest": true
   }

@@ -41,7 +41,27 @@ A local.settings.json file needs to be created.
 ```
 You need to supply a connection string url to a Storage Account.
 
-### Step 6:
+### Step 6
+
+In hte bin.real/bundler the path to ruby needs to be updated.
+```
+#!/workspace/azure-functions-ruby-sample/portableruby/bin/ruby
+```
+
+### Step 7
+
+Download the precompiled ruby version you want:
+https://rubies.travis-ci.org/
+
+The version we are using is 3.1.0
+curl -O https://rubies.travis-ci.org/ubuntu/20.04/x86_64/ruby-3.1.0
+
+untar the ruby archive
+```
+tar -xvjf ruby-3.1.0.tar.bz2 
+```
+
+### Step 8:
 
 ```
 func start --custom
