@@ -17,9 +17,9 @@
   },
   "customHandler": {
     "description": {
-      "defaultExecutablePath": "portableruby/bin/ruby",
+      "defaultExecutablePath": "portableruby/bin.real/bundle",
       "workingDirectory": "",
-      "arguments": [ "handler.rb" ]
+      "arguments": [ "exec ruby handler.rb" ]
     },
     "enableForwardingHttpRequest": true
   }

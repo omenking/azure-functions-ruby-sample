@@ -28,7 +28,20 @@ Intall the Azure Functions Core Tools
 
 https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Clinux%2Ccsharp%2Cportal%2Cbash
 
-### Step 5:
+### Step 5
+
+A local.settings.json file needs to be created.
+```
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "connection-string-url"
+    }
+}
+```
+You need to supply a connection string url to a Storage Account.
+
+### Step 6:
 
 ```
 func start --custom
