@@ -37,6 +37,7 @@ A local.settings.json file needs to be created.
 {
     "IsEncrypted": false,
     "Values": {
+        "FUNCTIONS_WORKER_RUNTIME": "Custom",
         "AzureWebJobsStorage": "connection-string-url"
     }
 }
